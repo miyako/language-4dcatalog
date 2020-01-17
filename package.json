@@ -1,0 +1,24 @@
+{
+  "name": "language-4dcatalog",
+  "version": "0.0.0",
+  "description": "4D language support in Atom",
+  "keywords": [
+    "language",
+    "grammar",
+    "tree-sitter"
+  ],
+  "repository": "https://github.com/miyako/language-4dcatalog",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "nan": "^2.14.0",
+    "node-gyp": "^6.0.1",
+    "tree-sitter-embedded-template": "^0.15.2",
+    "tree-sitter-html": "^0.15.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.15.12"
+  }
+}
