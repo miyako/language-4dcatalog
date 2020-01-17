@@ -40,12 +40,24 @@ scopes:
     start_tag > "<",
     end_tag > "</"
   ': 'punctuation.definition.tag.begin'
+
   '
     start_tag > ">",
     end_tag > ">"
   ': 'punctuation.definition.tag.end'
 
+  '
+    self_closing_tag > "<"
+  ': 'punctuation.definition.tag.begin'
+
+  '
+    self_closing_tag > "/>",
+    self_closing_tag > "/ >"    
+  ': 'punctuation.definition.tag.end'
+
   'attribute > "="': 'punctuation.separator.key-value.html'
+
+  'quoted_attribute_value_empty': 'punctuation.definition.string'
 
   # quoted_attribute_value has three child nodes: ", attribute_value, and ".
   # Target the first and last.
