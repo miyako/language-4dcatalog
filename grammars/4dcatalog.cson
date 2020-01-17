@@ -8,8 +8,6 @@
 
 'fileTypes': [
   '4DCatalog'
-  '4DSettings'
-  '4DPreferences'  
 ]
 
 folds: [
@@ -30,7 +28,7 @@ comments:
   end: '-->'
 
 scopes:
-  'fragment': 'source.html'
+  'fragment': 'source.4dcatalog'
   'tag_name': 'entity.name.tag'
   'erroneous_end_tag_name': 'invalid.illegal'
   'doctype': 'meta.tag.doctype.html'
