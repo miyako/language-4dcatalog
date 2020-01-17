@@ -9,6 +9,7 @@
 'fileTypes': [
   '4DCatalog'
   '4DSettings'
+  '4DPreferences'  
 ]
 
 folds: [
