@@ -4,7 +4,7 @@
 'scopeName': 'source.4dcatalog'
 'name': '4dcatalog'
 'type': 'tree-sitter'
-'parser': 'tree-sitter-html'
+'parser': 'tree-sitter-4dcatalog'
 
 'fileTypes': [
   '4DCatalog'
