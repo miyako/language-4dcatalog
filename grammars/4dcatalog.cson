@@ -2,9 +2,9 @@
 #   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
 
 'scopeName': 'source.4dcatalog'
-'name': '4dcatalog'
+'name': '4D Catalog'
 'type': 'tree-sitter'
-'parser': 'tree-sitter-4dcatalog'
+'parser': 'tree-sitter-4dxml'
 
 'fileTypes': [
   '4DCatalog'
@@ -52,7 +52,7 @@ scopes:
 
   '
     self_closing_tag > "/>",
-    self_closing_tag > "/ >"    
+    self_closing_tag > "/ >"
   ': 'punctuation.definition.tag.end'
 
   'attribute > "="': 'punctuation.separator.key-value.html'
